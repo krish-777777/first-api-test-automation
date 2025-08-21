@@ -1,0 +1,9 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.8.2
+requests==2.32.3
+python-dotenv==1.0.1
+faker==26.0.0
+# Optional Gemini clients (install one of them if you want live AI)
+google-genai==0.3.0
+google-generativeai==0.7.2

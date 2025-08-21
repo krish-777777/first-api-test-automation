@@ -1,0 +1,337 @@
+2025-08-19 18:16:04,670 [INFO] tests: LoggingAgent initialized. Logs will be saved to logs/tests.log.
+2025-08-19 18:16:04,670 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-19 18:16:04,671 [INFO] tests: Using fallback test data generator.
+2025-08-19 18:16:04,672 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:16:04,697 [INFO] tests: -> 200
+2025-08-19 18:16:04,698 [INFO] tests: Response body: {"id":1,"name":"Finish","price":834.87,"description":"Lot agree almost face. Together down building program could mean west whatever.","tags":["no","base","college","even"]}
+2025-08-19 18:16:04,698 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:16:04,703 [INFO] tests: -> 200
+2025-08-19 18:16:04,704 [INFO] tests: Response body: {"id":2,"name":"Knowledge little hard","price":231.76,"description":"Trade throw day girl.","tags":["could","tree","player"]}
+2025-08-19 18:16:04,704 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:16:04,709 [INFO] tests: -> 200
+2025-08-19 18:16:04,709 [INFO] tests: Response body: {"id":3,"name":"Morning news leader","price":379.1,"description":"Adult security traditional professional week. Wait exist think. Poor short hour cup.","tags":["could","manager"]}
+2025-08-19 18:16:04,710 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:16:04,715 [INFO] tests: -> 200
+2025-08-19 18:16:04,715 [INFO] tests: Response body: {"id":4,"name":"Administration","price":487.9,"description":"Recent effect middle future involve. Range thing throughout city recently you. Mr believe pass.","tags":["person","mouth","whether"]}
+2025-08-19 18:16:04,716 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:16:04,722 [INFO] tests: -> 200
+2025-08-19 18:16:04,723 [INFO] tests: Response body: {"id":5,"name":"Color task","price":257.25,"description":"May thank consumer include common your. Agreement control democratic or wall once total. Physical bar our many science.","tags":["organization"]}
+2025-08-19 18:16:04,723 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:16:04,728 [INFO] tests: -> 200
+2025-08-19 18:16:04,729 [INFO] tests: Response body: {"id":6,"name":"x","price":1.0,"description":null,"tags":[]}
+2025-08-19 18:16:04,729 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:16:04,736 [INFO] tests: -> 200
+2025-08-19 18:16:04,736 [INFO] tests: Response body: {"id":7,"name":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","price":99999.99,"description":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ","tags":["edge","max"]}
+2025-08-19 18:16:04,737 [INFO] tests: Created: [1, 2, 3, 4, 5, 6, 7]
+2025-08-19 18:16:04,737 [INFO] tests: GET http://127.0.0.1:8000/items/1
+2025-08-19 18:16:04,741 [INFO] tests: -> 200
+2025-08-19 18:16:04,742 [INFO] tests: Response body: {"id":1,"name":"Finish","price":834.87,"description":"Lot agree almost face. Together down building program could mean west whatever.","tags":["no","base","college","even"]}
+2025-08-19 18:16:04,742 [INFO] tests: GET http://127.0.0.1:8000/items/2
+2025-08-19 18:16:04,746 [INFO] tests: -> 200
+2025-08-19 18:16:04,746 [INFO] tests: Response body: {"id":2,"name":"Knowledge little hard","price":231.76,"description":"Trade throw day girl.","tags":["could","tree","player"]}
+2025-08-19 18:16:04,747 [INFO] tests: GET http://127.0.0.1:8000/items/3
+2025-08-19 18:16:04,752 [INFO] tests: -> 200
+2025-08-19 18:16:04,753 [INFO] tests: Response body: {"id":3,"name":"Morning news leader","price":379.1,"description":"Adult security traditional professional week. Wait exist think. Poor short hour cup.","tags":["could","manager"]}
+2025-08-19 18:16:04,753 [INFO] tests: GET http://127.0.0.1:8000/items/4
+2025-08-19 18:16:04,757 [INFO] tests: -> 200
+2025-08-19 18:16:04,757 [INFO] tests: Response body: {"id":4,"name":"Administration","price":487.9,"description":"Recent effect middle future involve. Range thing throughout city recently you. Mr believe pass.","tags":["person","mouth","whether"]}
+2025-08-19 18:16:04,758 [INFO] tests: GET http://127.0.0.1:8000/items/5
+2025-08-19 18:16:04,762 [INFO] tests: -> 200
+2025-08-19 18:16:04,763 [INFO] tests: Response body: {"id":5,"name":"Color task","price":257.25,"description":"May thank consumer include common your. Agreement control democratic or wall once total. Physical bar our many science.","tags":["organization"]}
+2025-08-19 18:16:04,764 [INFO] tests: GET http://127.0.0.1:8000/items/6
+2025-08-19 18:16:04,769 [INFO] tests: -> 200
+2025-08-19 18:16:04,769 [INFO] tests: Response body: {"id":6,"name":"x","price":1.0,"description":null,"tags":[]}
+2025-08-19 18:16:04,769 [INFO] tests: GET http://127.0.0.1:8000/items/7
+2025-08-19 18:16:04,773 [INFO] tests: -> 200
+2025-08-19 18:16:04,774 [INFO] tests: Response body: {"id":7,"name":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","price":99999.99,"description":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ","tags":["edge","max"]}
+2025-08-19 18:16:04,775 [INFO] tests: GET http://127.0.0.1:8000/items
+2025-08-19 18:16:04,778 [INFO] tests: -> 200
+2025-08-19 18:16:04,778 [INFO] tests: Response body: [{"id":1,"name":"Finish","price":834.87,"description":"Lot agree almost face. Together down building program could mean west whatever.","tags":["no","base","college","even"]},{"id":2,"name":"Knowledge little hard","price":231.76,"description":"Trade throw day girl.","tags":["could","tree","player"]},{"id":3,"name":"Morning news leader","price":379.1,"description":"Adult security traditional professional week. Wait exist think. Poor short hour cup.","tags":["could","manager"]},{"id":4,"name":"Adm
+2025-08-19 18:16:04,779 [INFO] tests: PUT http://127.0.0.1:8000/items/1
+2025-08-19 18:16:04,785 [INFO] tests: -> 200
+2025-08-19 18:16:04,785 [INFO] tests: Response body: {"id":1,"name":"Updated Name","price":42.42,"description":"Updated desc","tags":["updated"]}
+2025-08-19 18:16:04,785 [INFO] tests: PATCH http://127.0.0.1:8000/items/1
+2025-08-19 18:16:04,789 [INFO] tests: -> 200
+2025-08-19 18:16:04,789 [INFO] tests: Response body: {"id":1,"name":"Patched Name","price":84.84,"description":"Updated desc","tags":["updated"]}
+2025-08-19 18:16:04,790 [INFO] tests: DELETE http://127.0.0.1:8000/items/1
+2025-08-19 18:16:04,794 [INFO] tests: -> 200
+2025-08-19 18:16:04,795 [INFO] tests: Response body: {"deleted":1}
+2025-08-19 18:16:04,795 [INFO] tests: DELETE http://127.0.0.1:8000/items/2
+2025-08-19 18:16:04,801 [INFO] tests: -> 200
+2025-08-19 18:16:04,801 [INFO] tests: Response body: {"deleted":2}
+2025-08-19 18:16:04,802 [INFO] tests: DELETE http://127.0.0.1:8000/items/3
+2025-08-19 18:16:04,805 [INFO] tests: -> 200
+2025-08-19 18:16:04,805 [INFO] tests: Response body: {"deleted":3}
+2025-08-19 18:16:04,805 [INFO] tests: DELETE http://127.0.0.1:8000/items/4
+2025-08-19 18:16:04,810 [INFO] tests: -> 200
+2025-08-19 18:16:04,810 [INFO] tests: Response body: {"deleted":4}
+2025-08-19 18:16:04,811 [INFO] tests: DELETE http://127.0.0.1:8000/items/5
+2025-08-19 18:16:04,816 [INFO] tests: -> 200
+2025-08-19 18:16:04,816 [INFO] tests: Response body: {"deleted":5}
+2025-08-19 18:16:04,817 [INFO] tests: DELETE http://127.0.0.1:8000/items/6
+2025-08-19 18:16:04,820 [INFO] tests: -> 200
+2025-08-19 18:16:04,820 [INFO] tests: Response body: {"deleted":6}
+2025-08-19 18:16:04,821 [INFO] tests: DELETE http://127.0.0.1:8000/items/7
+2025-08-19 18:16:04,825 [INFO] tests: -> 200
+2025-08-19 18:16:04,825 [INFO] tests: Response body: {"deleted":7}
+2025-08-19 18:16:04,826 [INFO] tests: CRUD sequence completed successfully.
+2025-08-19 18:19:00,920 [INFO] tests: LoggingAgent initialized. Logs will be saved to logs/tests.log.
+2025-08-19 18:19:00,921 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-19 18:19:00,921 [INFO] tests: Using fallback test data generator.
+2025-08-19 18:19:00,922 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:19:00,927 [INFO] tests: -> 200
+2025-08-19 18:19:00,928 [INFO] tests: Response body: {"id":8,"name":"Hospital material","price":43.93,"description":"We require production notice what. Necessary some hour director far bed. Food bank particular economic land.","tags":["admit","human","sister","reduce"]}
+2025-08-19 18:19:00,928 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:19:00,934 [INFO] tests: -> 200
+2025-08-19 18:19:00,934 [INFO] tests: Response body: {"id":9,"name":"Appear plan herself","price":124.59,"description":"Thousand five risk design must. Score sea contain environmental.","tags":["option"]}
+2025-08-19 18:19:00,935 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:19:00,940 [INFO] tests: -> 200
+2025-08-19 18:19:00,941 [INFO] tests: Response body: {"id":10,"name":"Eight people","price":183.66,"description":"Who detail center than save lawyer. Fact since professor baby wait late guess.","tags":["agree","tell","choose"]}
+2025-08-19 18:19:00,943 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:19:00,948 [INFO] tests: -> 200
+2025-08-19 18:19:00,949 [INFO] tests: Response body: {"id":11,"name":"Space side name","price":104.66,"description":"Say quality prepare according operation the many. Need today process.","tags":["why","huge","stay","mouth"]}
+2025-08-19 18:19:00,949 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:19:00,955 [INFO] tests: -> 200
+2025-08-19 18:19:00,955 [INFO] tests: Response body: {"id":12,"name":"Tonight mission","price":567.68,"description":"Produce through whatever cost generation two number. Guess billion wear value sound.","tags":["consumer","sense"]}
+2025-08-19 18:19:00,956 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:19:00,962 [INFO] tests: -> 200
+2025-08-19 18:19:00,963 [INFO] tests: Response body: {"id":13,"name":"x","price":1.0,"description":null,"tags":[]}
+2025-08-19 18:19:00,963 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-19 18:19:00,968 [INFO] tests: -> 200
+2025-08-19 18:19:00,968 [INFO] tests: Response body: {"id":14,"name":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","price":99999.99,"description":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ","tags":["edge","max"]}
+2025-08-19 18:19:00,969 [INFO] tests: Created: [8, 9, 10, 11, 12, 13, 14]
+2025-08-19 18:19:00,969 [INFO] tests: GET http://127.0.0.1:8000/items/8
+2025-08-19 18:19:00,974 [INFO] tests: -> 200
+2025-08-19 18:19:00,975 [INFO] tests: Response body: {"id":8,"name":"Hospital material","price":43.93,"description":"We require production notice what. Necessary some hour director far bed. Food bank particular economic land.","tags":["admit","human","sister","reduce"]}
+2025-08-19 18:19:00,975 [INFO] tests: GET http://127.0.0.1:8000/items/9
+2025-08-19 18:19:00,979 [INFO] tests: -> 200
+2025-08-19 18:19:00,979 [INFO] tests: Response body: {"id":9,"name":"Appear plan herself","price":124.59,"description":"Thousand five risk design must. Score sea contain environmental.","tags":["option"]}
+2025-08-19 18:19:00,980 [INFO] tests: GET http://127.0.0.1:8000/items/10
+2025-08-19 18:19:00,984 [INFO] tests: -> 200
+2025-08-19 18:19:00,985 [INFO] tests: Response body: {"id":10,"name":"Eight people","price":183.66,"description":"Who detail center than save lawyer. Fact since professor baby wait late guess.","tags":["agree","tell","choose"]}
+2025-08-19 18:19:00,985 [INFO] tests: GET http://127.0.0.1:8000/items/11
+2025-08-19 18:19:00,990 [INFO] tests: -> 200
+2025-08-19 18:19:00,991 [INFO] tests: Response body: {"id":11,"name":"Space side name","price":104.66,"description":"Say quality prepare according operation the many. Need today process.","tags":["why","huge","stay","mouth"]}
+2025-08-19 18:19:00,991 [INFO] tests: GET http://127.0.0.1:8000/items/12
+2025-08-19 18:19:00,995 [INFO] tests: -> 200
+2025-08-19 18:19:00,995 [INFO] tests: Response body: {"id":12,"name":"Tonight mission","price":567.68,"description":"Produce through whatever cost generation two number. Guess billion wear value sound.","tags":["consumer","sense"]}
+2025-08-19 18:19:00,995 [INFO] tests: GET http://127.0.0.1:8000/items/13
+2025-08-19 18:19:00,999 [INFO] tests: -> 200
+2025-08-19 18:19:01,000 [INFO] tests: Response body: {"id":13,"name":"x","price":1.0,"description":null,"tags":[]}
+2025-08-19 18:19:01,000 [INFO] tests: GET http://127.0.0.1:8000/items/14
+2025-08-19 18:19:01,006 [INFO] tests: -> 200
+2025-08-19 18:19:01,007 [INFO] tests: Response body: {"id":14,"name":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","price":99999.99,"description":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ","tags":["edge","max"]}
+2025-08-19 18:19:01,007 [INFO] tests: GET http://127.0.0.1:8000/items
+2025-08-19 18:19:01,011 [INFO] tests: -> 200
+2025-08-19 18:19:01,012 [INFO] tests: Response body: [{"id":8,"name":"Hospital material","price":43.93,"description":"We require production notice what. Necessary some hour director far bed. Food bank particular economic land.","tags":["admit","human","sister","reduce"]},{"id":9,"name":"Appear plan herself","price":124.59,"description":"Thousand five risk design must. Score sea contain environmental.","tags":["option"]},{"id":10,"name":"Eight people","price":183.66,"description":"Who detail center than save lawyer. Fact since professor baby wait l
+2025-08-19 18:19:01,012 [INFO] tests: PUT http://127.0.0.1:8000/items/8
+2025-08-19 18:19:01,018 [INFO] tests: -> 200
+2025-08-19 18:19:01,019 [INFO] tests: Response body: {"id":8,"name":"Updated Name","price":42.42,"description":"Updated desc","tags":["updated"]}
+2025-08-19 18:19:01,020 [INFO] tests: PATCH http://127.0.0.1:8000/items/8
+2025-08-19 18:19:01,025 [INFO] tests: -> 200
+2025-08-19 18:19:01,025 [INFO] tests: Response body: {"id":8,"name":"Patched Name","price":84.84,"description":"Updated desc","tags":["updated"]}
+2025-08-19 18:19:01,026 [INFO] tests: DELETE http://127.0.0.1:8000/items/8
+2025-08-19 18:19:01,030 [INFO] tests: -> 200
+2025-08-19 18:19:01,031 [INFO] tests: Response body: {"deleted":8}
+2025-08-19 18:19:01,031 [INFO] tests: DELETE http://127.0.0.1:8000/items/9
+2025-08-19 18:19:01,038 [INFO] tests: -> 200
+2025-08-19 18:19:01,038 [INFO] tests: Response body: {"deleted":9}
+2025-08-19 18:19:01,039 [INFO] tests: DELETE http://127.0.0.1:8000/items/10
+2025-08-19 18:19:01,043 [INFO] tests: -> 200
+2025-08-19 18:19:01,043 [INFO] tests: Response body: {"deleted":10}
+2025-08-19 18:19:01,043 [INFO] tests: DELETE http://127.0.0.1:8000/items/11
+2025-08-19 18:19:01,047 [INFO] tests: -> 200
+2025-08-19 18:19:01,047 [INFO] tests: Response body: {"deleted":11}
+2025-08-19 18:19:01,048 [INFO] tests: DELETE http://127.0.0.1:8000/items/12
+2025-08-19 18:19:01,055 [INFO] tests: -> 200
+2025-08-19 18:19:01,055 [INFO] tests: Response body: {"deleted":12}
+2025-08-19 18:19:01,055 [INFO] tests: DELETE http://127.0.0.1:8000/items/13
+2025-08-19 18:19:01,059 [INFO] tests: -> 200
+2025-08-19 18:19:01,060 [INFO] tests: Response body: {"deleted":13}
+2025-08-19 18:19:01,060 [INFO] tests: DELETE http://127.0.0.1:8000/items/14
+2025-08-19 18:19:01,065 [INFO] tests: -> 200
+2025-08-19 18:19:01,065 [INFO] tests: Response body: {"deleted":14}
+2025-08-19 18:19:01,066 [INFO] tests: CRUD sequence completed successfully.
+2025-08-20 14:50:26,174 [INFO] tests: LoggingAgent initialized. Logs will be saved to logs/tests.log.
+2025-08-20 14:50:26,175 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-20 14:50:26,176 [INFO] tests: Using fallback test data generator.
+2025-08-20 14:50:26,178 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 14:50:26,208 [INFO] tests: -> 200
+2025-08-20 14:50:26,208 [INFO] tests: Response body: {"id":1,"name":"Night","price":340.28,"description":"Specific around that ok feeling stuff. Shoulder seven very former get tough. Fact ready seem financial recently.","tags":["occur","happy","hold","write"]}
+2025-08-20 14:50:26,209 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 14:50:26,213 [INFO] tests: -> 200
+2025-08-20 14:50:26,214 [INFO] tests: Response body: {"id":2,"name":"Across bill term","price":168.5,"description":"Decision quickly tend radio right rather share. Require become almost wish evening drive.","tags":["hundred","learn"]}
+2025-08-20 14:50:26,215 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 14:50:26,218 [INFO] tests: -> 200
+2025-08-20 14:50:26,218 [INFO] tests: Response body: {"id":3,"name":"Return early","price":820.8,"description":"Road set although power. They ready take court far loss true.","tags":["agreement","court","current"]}
+2025-08-20 14:50:26,219 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 14:50:26,226 [INFO] tests: -> 200
+2025-08-20 14:50:26,226 [INFO] tests: Response body: {"id":4,"name":"Become box","price":82.12,"description":"Through research course across. Ago build decide well. Claim either family plan push him.","tags":["local","employee","result"]}
+2025-08-20 14:50:26,227 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 14:50:26,232 [INFO] tests: -> 200
+2025-08-20 14:50:26,232 [INFO] tests: Response body: {"id":5,"name":"Factor figure continue","price":892.25,"description":"Economy goal data make. Example by represent institution teacher old any but.","tags":["stage","watch"]}
+2025-08-20 14:50:26,233 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 14:50:26,237 [INFO] tests: -> 200
+2025-08-20 14:50:26,238 [INFO] tests: Response body: {"id":6,"name":"x","price":1.0,"description":null,"tags":[]}
+2025-08-20 14:50:26,239 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 14:50:26,245 [INFO] tests: -> 200
+2025-08-20 14:50:26,246 [INFO] tests: Response body: {"id":7,"name":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","price":99999.99,"description":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ","tags":["edge","max"]}
+2025-08-20 14:50:26,246 [INFO] tests: Created: [1, 2, 3, 4, 5, 6, 7]
+2025-08-20 14:50:26,247 [INFO] tests: GET http://127.0.0.1:8000/items/1
+2025-08-20 14:50:26,250 [INFO] tests: -> 200
+2025-08-20 14:50:26,250 [INFO] tests: Response body: {"id":1,"name":"Night","price":340.28,"description":"Specific around that ok feeling stuff. Shoulder seven very former get tough. Fact ready seem financial recently.","tags":["occur","happy","hold","write"]}
+2025-08-20 14:50:26,251 [INFO] tests: GET http://127.0.0.1:8000/items/2
+2025-08-20 14:50:26,257 [INFO] tests: -> 200
+2025-08-20 14:50:26,258 [INFO] tests: Response body: {"id":2,"name":"Across bill term","price":168.5,"description":"Decision quickly tend radio right rather share. Require become almost wish evening drive.","tags":["hundred","learn"]}
+2025-08-20 14:50:26,258 [INFO] tests: GET http://127.0.0.1:8000/items/3
+2025-08-20 14:50:26,262 [INFO] tests: -> 200
+2025-08-20 14:50:26,263 [INFO] tests: Response body: {"id":3,"name":"Return early","price":820.8,"description":"Road set although power. They ready take court far loss true.","tags":["agreement","court","current"]}
+2025-08-20 14:50:26,263 [INFO] tests: GET http://127.0.0.1:8000/items/4
+2025-08-20 14:50:26,267 [INFO] tests: -> 200
+2025-08-20 14:50:26,267 [INFO] tests: Response body: {"id":4,"name":"Become box","price":82.12,"description":"Through research course across. Ago build decide well. Claim either family plan push him.","tags":["local","employee","result"]}
+2025-08-20 14:50:26,267 [INFO] tests: GET http://127.0.0.1:8000/items/5
+2025-08-20 14:50:26,274 [INFO] tests: -> 200
+2025-08-20 14:50:26,274 [INFO] tests: Response body: {"id":5,"name":"Factor figure continue","price":892.25,"description":"Economy goal data make. Example by represent institution teacher old any but.","tags":["stage","watch"]}
+2025-08-20 14:50:26,275 [INFO] tests: GET http://127.0.0.1:8000/items/6
+2025-08-20 14:50:26,279 [INFO] tests: -> 200
+2025-08-20 14:50:26,279 [INFO] tests: Response body: {"id":6,"name":"x","price":1.0,"description":null,"tags":[]}
+2025-08-20 14:50:26,280 [INFO] tests: GET http://127.0.0.1:8000/items/7
+2025-08-20 14:50:26,284 [INFO] tests: -> 200
+2025-08-20 14:50:26,284 [INFO] tests: Response body: {"id":7,"name":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","price":99999.99,"description":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ","tags":["edge","max"]}
+2025-08-20 14:50:26,284 [INFO] tests: GET http://127.0.0.1:8000/items
+2025-08-20 14:50:26,291 [INFO] tests: -> 200
+2025-08-20 14:50:26,291 [INFO] tests: Response body: [{"id":1,"name":"Night","price":340.28,"description":"Specific around that ok feeling stuff. Shoulder seven very former get tough. Fact ready seem financial recently.","tags":["occur","happy","hold","write"]},{"id":2,"name":"Across bill term","price":168.5,"description":"Decision quickly tend radio right rather share. Require become almost wish evening drive.","tags":["hundred","learn"]},{"id":3,"name":"Return early","price":820.8,"description":"Road set although power. They ready take court far
+2025-08-20 14:50:26,292 [INFO] tests: PUT http://127.0.0.1:8000/items/1
+2025-08-20 14:50:26,296 [INFO] tests: -> 200
+2025-08-20 14:50:26,296 [INFO] tests: Response body: {"id":1,"name":"Updated Name","price":42.42,"description":"Updated desc","tags":["updated"]}
+2025-08-20 14:50:26,297 [INFO] tests: PATCH http://127.0.0.1:8000/items/1
+2025-08-20 14:50:26,301 [INFO] tests: -> 200
+2025-08-20 14:50:26,301 [INFO] tests: Response body: {"id":1,"name":"Patched Name","price":84.84,"description":"Updated desc","tags":["updated"]}
+2025-08-20 14:50:26,301 [INFO] tests: DELETE http://127.0.0.1:8000/items/1
+2025-08-20 14:50:26,308 [INFO] tests: -> 200
+2025-08-20 14:50:26,308 [INFO] tests: Response body: {"deleted":1}
+2025-08-20 14:50:26,308 [INFO] tests: DELETE http://127.0.0.1:8000/items/2
+2025-08-20 14:50:26,313 [INFO] tests: -> 200
+2025-08-20 14:50:26,313 [INFO] tests: Response body: {"deleted":2}
+2025-08-20 14:50:26,314 [INFO] tests: DELETE http://127.0.0.1:8000/items/3
+2025-08-20 14:50:26,317 [INFO] tests: -> 200
+2025-08-20 14:50:26,318 [INFO] tests: Response body: {"deleted":3}
+2025-08-20 14:50:26,318 [INFO] tests: DELETE http://127.0.0.1:8000/items/4
+2025-08-20 14:50:26,325 [INFO] tests: -> 200
+2025-08-20 14:50:26,325 [INFO] tests: Response body: {"deleted":4}
+2025-08-20 14:50:26,325 [INFO] tests: DELETE http://127.0.0.1:8000/items/5
+2025-08-20 14:50:26,330 [INFO] tests: -> 200
+2025-08-20 14:50:26,330 [INFO] tests: Response body: {"deleted":5}
+2025-08-20 14:50:26,331 [INFO] tests: DELETE http://127.0.0.1:8000/items/6
+2025-08-20 14:50:26,334 [INFO] tests: -> 200
+2025-08-20 14:50:26,335 [INFO] tests: Response body: {"deleted":6}
+2025-08-20 14:50:26,335 [INFO] tests: DELETE http://127.0.0.1:8000/items/7
+2025-08-20 14:50:26,341 [INFO] tests: -> 200
+2025-08-20 14:50:26,341 [INFO] tests: Response body: {"deleted":7}
+2025-08-20 14:50:26,342 [INFO] tests: CRUD sequence completed successfully.
+2025-08-20 15:14:17,446 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-20 15:15:51,722 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-20 16:09:43,683 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-20 16:09:43,719 [INFO] tests: Using fallback test data generator.
+2025-08-20 16:09:43,725 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-20 16:09:43,725 [INFO] tests: Using fallback test data generator.
+2025-08-20 16:09:43,725 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 16:09:43,759 [INFO] tests: -> 200
+2025-08-20 16:09:43,759 [INFO] tests: Response body: {"id":1,"name":"Talk approach","price":111.11,"description":"Player blood run. Almost result too man appear structure sure. Himself true until improve across dark music behind.","tags":["product","first","again","cover"]}
+2025-08-20 16:09:43,759 [INFO] tests: Created item: {'id': 1, 'name': 'Talk approach', 'price': 111.11, 'description': 'Player blood run. Almost result too man appear structure sure. Himself true until improve across dark music behind.', 'tags': ['product', 'first', 'again', 'cover']}
+2025-08-20 16:09:43,762 [INFO] tests: GET http://127.0.0.1:8000/items/1
+2025-08-20 16:09:43,768 [INFO] tests: -> 200
+2025-08-20 16:09:43,768 [INFO] tests: Response body: {"id":1,"name":"Talk approach","price":111.11,"description":"Player blood run. Almost result too man appear structure sure. Himself true until improve across dark music behind.","tags":["product","first","again","cover"]}
+2025-08-20 16:09:43,768 [INFO] tests: Read item: {'id': 1, 'name': 'Talk approach', 'price': 111.11, 'description': 'Player blood run. Almost result too man appear structure sure. Himself true until improve across dark music behind.', 'tags': ['product', 'first', 'again', 'cover']}
+2025-08-20 16:09:43,771 [INFO] tests: PUT http://127.0.0.1:8000/items/1
+2025-08-20 16:09:43,777 [INFO] tests: -> 200
+2025-08-20 16:09:43,777 [INFO] tests: Response body: {"id":1,"name":"Updated Name","price":42.42,"description":"Updated desc","tags":["updated"]}
+2025-08-20 16:09:43,777 [INFO] tests: Updated item: {'id': 1, 'name': 'Updated Name', 'price': 42.42, 'description': 'Updated desc', 'tags': ['updated']}
+2025-08-20 16:09:43,780 [INFO] tests: PATCH http://127.0.0.1:8000/items/1
+2025-08-20 16:09:43,786 [INFO] tests: -> 200
+2025-08-20 16:09:43,786 [INFO] tests: Response body: {"id":1,"name":"Patched Name","price":84.84,"description":"Updated desc","tags":["updated"]}
+2025-08-20 16:09:43,786 [INFO] tests: Patched item: {'id': 1, 'name': 'Patched Name', 'price': 84.84, 'description': 'Updated desc', 'tags': ['updated']}
+2025-08-20 16:09:43,789 [INFO] tests: DELETE http://127.0.0.1:8000/items/1
+2025-08-20 16:09:43,793 [INFO] tests: -> 200
+2025-08-20 16:09:43,794 [INFO] tests: Response body: {"deleted":1}
+2025-08-20 16:09:43,794 [INFO] tests: Deleted item 1
+2025-08-20 16:12:24,147 [INFO] tests: LoggingAgent initialized. Logs will be saved to logs/tests.log.
+2025-08-20 16:12:24,149 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-20 16:12:24,150 [INFO] tests: Using fallback test data generator.
+2025-08-20 16:20:20,177 [INFO] tests: LoggingAgent initialized. Logs will be saved to logs/tests.log.
+2025-08-20 16:20:20,177 [WARNING] tests: GOOGLE_API_KEY not set; Gemini will be disabled (fallback will be used).
+2025-08-20 16:20:20,178 [INFO] tests: Using fallback test data generator.
+2025-08-20 16:20:20,179 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 16:20:20,195 [INFO] tests: -> 200
+2025-08-20 16:20:20,196 [INFO] tests: Response body: {"id":1,"name":"Reason administration","price":228.19,"description":"Live major because majority goal home prepare. Billion sure economy.","tags":null}
+2025-08-20 16:20:20,196 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 16:20:20,201 [INFO] tests: -> 200
+2025-08-20 16:20:20,201 [INFO] tests: Response body: {"id":2,"name":"Call group trade","price":627.45,"description":"Increase night whether ability movement himself. Large good next identify building business whose.","tags":["city","win"]}
+2025-08-20 16:20:20,201 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 16:20:20,208 [INFO] tests: -> 200
+2025-08-20 16:20:20,208 [INFO] tests: Response body: {"id":3,"name":"Sit great machine","price":368.01,"description":"Line might commercial memory pull century over. Front action drop choice beautiful describe.","tags":["here","benefit","amount"]}
+2025-08-20 16:20:20,209 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 16:20:20,216 [INFO] tests: -> 200
+2025-08-20 16:20:20,216 [INFO] tests: Response body: {"id":4,"name":"Administration recently hard","price":812.85,"description":"Give bag brother between or half. Development cover long difficult. Loss include stuff down meet pick owner.","tags":["television","piece"]}
+2025-08-20 16:20:20,217 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 16:20:20,221 [INFO] tests: -> 200
+2025-08-20 16:20:20,221 [INFO] tests: Response body: {"id":5,"name":"Compare boy dark","price":122.48,"description":"New other both after sea.","tags":["others","person","seem","soldier"]}
+2025-08-20 16:20:20,222 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 16:20:20,228 [INFO] tests: -> 200
+2025-08-20 16:20:20,228 [INFO] tests: Response body: {"id":6,"name":"x","price":1.0,"description":null,"tags":[]}
+2025-08-20 16:20:20,230 [INFO] tests: POST http://127.0.0.1:8000/items
+2025-08-20 16:20:20,235 [INFO] tests: -> 200
+2025-08-20 16:20:20,235 [INFO] tests: Response body: {"id":7,"name":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","price":99999.99,"description":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ","tags":["edge","max"]}
+2025-08-20 16:20:20,236 [INFO] tests: Created: [1, 2, 3, 4, 5, 6, 7]
+2025-08-20 16:20:20,236 [INFO] tests: GET http://127.0.0.1:8000/items/1
+2025-08-20 16:20:20,239 [INFO] tests: -> 200
+2025-08-20 16:20:20,240 [INFO] tests: Response body: {"id":1,"name":"Reason administration","price":228.19,"description":"Live major because majority goal home prepare. Billion sure economy.","tags":null}
+2025-08-20 16:20:20,240 [INFO] tests: GET http://127.0.0.1:8000/items/2
+2025-08-20 16:20:20,245 [INFO] tests: -> 200
+2025-08-20 16:20:20,245 [INFO] tests: Response body: {"id":2,"name":"Call group trade","price":627.45,"description":"Increase night whether ability movement himself. Large good next identify building business whose.","tags":["city","win"]}
+2025-08-20 16:20:20,247 [INFO] tests: GET http://127.0.0.1:8000/items/3
+2025-08-20 16:20:20,251 [INFO] tests: -> 200
+2025-08-20 16:20:20,251 [INFO] tests: Response body: {"id":3,"name":"Sit great machine","price":368.01,"description":"Line might commercial memory pull century over. Front action drop choice beautiful describe.","tags":["here","benefit","amount"]}
+2025-08-20 16:20:20,252 [INFO] tests: GET http://127.0.0.1:8000/items/4
+2025-08-20 16:20:20,255 [INFO] tests: -> 200
+2025-08-20 16:20:20,256 [INFO] tests: Response body: {"id":4,"name":"Administration recently hard","price":812.85,"description":"Give bag brother between or half. Development cover long difficult. Loss include stuff down meet pick owner.","tags":["television","piece"]}
+2025-08-20 16:20:20,256 [INFO] tests: GET http://127.0.0.1:8000/items/5
+2025-08-20 16:20:20,260 [INFO] tests: -> 200
+2025-08-20 16:20:20,261 [INFO] tests: Response body: {"id":5,"name":"Compare boy dark","price":122.48,"description":"New other both after sea.","tags":["others","person","seem","soldier"]}
+2025-08-20 16:20:20,261 [INFO] tests: GET http://127.0.0.1:8000/items/6
+2025-08-20 16:20:20,266 [INFO] tests: -> 200
+2025-08-20 16:20:20,267 [INFO] tests: Response body: {"id":6,"name":"x","price":1.0,"description":null,"tags":[]}
+2025-08-20 16:20:20,267 [INFO] tests: GET http://127.0.0.1:8000/items/7
+2025-08-20 16:20:20,271 [INFO] tests: -> 200
+2025-08-20 16:20:20,271 [INFO] tests: Response body: {"id":7,"name":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","price":99999.99,"description":"ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ","tags":["edge","max"]}
+2025-08-20 16:20:20,272 [INFO] tests: GET http://127.0.0.1:8000/items
+2025-08-20 16:20:20,275 [INFO] tests: -> 200
+2025-08-20 16:20:20,275 [INFO] tests: Response body: [{"id":1,"name":"Reason administration","price":228.19,"description":"Live major because majority goal home prepare. Billion sure economy.","tags":null},{"id":2,"name":"Call group trade","price":627.45,"description":"Increase night whether ability movement himself. Large good next identify building business whose.","tags":["city","win"]},{"id":3,"name":"Sit great machine","price":368.01,"description":"Line might commercial memory pull century over. Front action drop choice beautiful describe.","
+2025-08-20 16:20:20,277 [INFO] tests: PUT http://127.0.0.1:8000/items/1
+2025-08-20 16:20:20,283 [INFO] tests: -> 200
+2025-08-20 16:20:20,283 [INFO] tests: Response body: {"id":1,"name":"Updated Name","price":42.42,"description":"Updated desc","tags":["updated"]}
+2025-08-20 16:20:20,284 [INFO] tests: PATCH http://127.0.0.1:8000/items/1
+2025-08-20 16:20:20,288 [INFO] tests: -> 200
+2025-08-20 16:20:20,288 [INFO] tests: Response body: {"id":1,"name":"Patched Name","price":84.84,"description":"Updated desc","tags":["updated"]}
+2025-08-20 16:20:20,289 [INFO] tests: DELETE http://127.0.0.1:8000/items/1
+2025-08-20 16:20:20,293 [INFO] tests: -> 200
+2025-08-20 16:20:20,294 [INFO] tests: Response body: {"deleted":1}
+2025-08-20 16:20:20,295 [INFO] tests: DELETE http://127.0.0.1:8000/items/2
+2025-08-20 16:20:20,301 [INFO] tests: -> 200
+2025-08-20 16:20:20,301 [INFO] tests: Response body: {"deleted":2}
+2025-08-20 16:20:20,301 [INFO] tests: DELETE http://127.0.0.1:8000/items/3
+2025-08-20 16:20:20,305 [INFO] tests: -> 200
+2025-08-20 16:20:20,306 [INFO] tests: Response body: {"deleted":3}
+2025-08-20 16:20:20,306 [INFO] tests: DELETE http://127.0.0.1:8000/items/4
+2025-08-20 16:20:20,310 [INFO] tests: -> 200
+2025-08-20 16:20:20,311 [INFO] tests: Response body: {"deleted":4}
+2025-08-20 16:20:20,311 [INFO] tests: DELETE http://127.0.0.1:8000/items/5
+2025-08-20 16:20:20,317 [INFO] tests: -> 200
+2025-08-20 16:20:20,317 [INFO] tests: Response body: {"deleted":5}
+2025-08-20 16:20:20,318 [INFO] tests: DELETE http://127.0.0.1:8000/items/6
+2025-08-20 16:20:20,322 [INFO] tests: -> 200
+2025-08-20 16:20:20,322 [INFO] tests: Response body: {"deleted":6}
+2025-08-20 16:20:20,323 [INFO] tests: DELETE http://127.0.0.1:8000/items/7
+2025-08-20 16:20:20,327 [INFO] tests: -> 200
+2025-08-20 16:20:20,328 [INFO] tests: Response body: {"deleted":7}
+2025-08-20 16:20:20,329 [INFO] tests: CRUD sequence completed successfully.
